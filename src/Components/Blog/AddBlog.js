@@ -48,7 +48,7 @@ export default function AddBlog() {
                 alert("SNS message published successfully`");
             })
 
-        axios.post("https://af9u6eyikh.execute-api.us-east-1.amazonaws.com/addBlog", BlogData)
+        axios.post("https://sa9km7xc35.execute-api.us-east-1.amazonaws.com/addBlog", BlogData)
             .then((response) => {
                 alert("Blog Post Added Successfully");
                 navigate("/viewBlog");
